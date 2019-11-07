@@ -1,0 +1,35 @@
+body {
+  margin:0;
+  padding:30px 0;
+}
+.box {
+   float:left;
+   margin-right: 25px;
+   background-color: darkgrey;
+   width: calc((100% - 125px)/4);
+   padding: 5px;
+   box-sizing: border-box;
+ }
+.box:first-child {
+  margin-left: 25px;
+}
+
+.card{
+background-color: white;
+box-shadow: 2px 1px 1px pink;
+margin:10px;
+padding:5px;
+border-radius: 5px;
+}
+.todo .header {
+  background-color:green
+}
+.backlog .header {
+  background-color: mediumpurple
+}
+.progress .header {
+  background-color: darkblue;
+}
+.done .header {
+  background-color: orange;
+}
