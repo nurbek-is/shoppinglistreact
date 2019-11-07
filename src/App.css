@@ -33,3 +33,6 @@ border-radius: 5px;
 .done .header {
   background-color: orange;
 }
+.add-card {
+  padding:0 10px;
+}
