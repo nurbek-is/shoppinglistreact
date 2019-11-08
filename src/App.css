@@ -20,6 +20,7 @@ box-shadow: 2px 1px 1px pink;
 margin:10px;
 padding:5px;
 border-radius: 5px;
+text-align:center;
 }
 .todo .header {
   background-color:green
@@ -35,4 +36,11 @@ border-radius: 5px;
 }
 .add-card {
   padding:0 10px;
+}
+.move-right {
+  float:right;
+}
+.move-left {
+  float:left;
+  margin-right:15px;
 }
